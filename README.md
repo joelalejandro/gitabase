@@ -5,6 +5,12 @@ Una base de datos hecha con JSON y Git. ¿¿¿CÓMO DIJO???
 Más información acá:
 https://www.youtube.com/watch?v=B5KE56yvpTc
 
+## ¿Esto funciona?
+
+En mi máquina anda.
+
+![image](https://user-images.githubusercontent.com/118913/119130813-14bae300-ba0f-11eb-8b67-eadde77be080.png)
+
 ## Quiero usar esto
 
 ### Proveedores soportados
