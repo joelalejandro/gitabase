@@ -7,9 +7,23 @@ https://www.youtube.com/watch?v=B5KE56yvpTc
 
 ## Quiero usar esto
 
+### Proveedores soportados
+
+- GitLab
+
+### Instalación
+
 ```
 npm i github:joelalejandro/gitabase#master
 ```
+
+### Cómo levantar una Gitabase en GitLab
+
+1. Creá un repo de Gitabase, usando esta estructura como punto de partida: https://gitlab.com/joelalejandro/gitabase-test-db.
+2. Creá un usuario de GitLab adicional *que no sea el dueño del repo* y agregalo al repo de la base con el rol de Developer.
+3. Creá un access token con este nuevo usuario, sólo con el permiso *API*.
+
+### Ejemplos
 
 ```ts
 import Gitabase, { GitlabStore } from 'gitabase';
@@ -41,3 +55,11 @@ await db.commit();
 // Rollbackear (OJO: esto es revertir el último commit de Git)
 await db.rollback();
 ```
+
+## Más cosas
+
+El [test de Gitabase](./tests/gitabase.spec.ts) muestra más ejemplos.
+
+## Disclaimer
+
+Esto es un experimento y bajo ningún concepto está validado su funcionamiento estable en producción. Si usás esto, es bajo tu propio riesgo. ¡Divertite!
