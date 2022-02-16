@@ -43,6 +43,7 @@ const store = new GitlabStore({
     commitEmail: 'yo@no-email.com'
 });
 
+db.useStore(store);
 await db.openDatabase();
 db.name === 'mi-base'; // true;
 
