@@ -20,7 +20,7 @@ En mi máquina anda.
 ### Instalación
 
 ```
-npm i github:joelalejandro/gitabase#master
+npm i github:joelalejandro/gitabase#main
 ```
 
 ### Cómo levantar una Gitabase en GitLab
